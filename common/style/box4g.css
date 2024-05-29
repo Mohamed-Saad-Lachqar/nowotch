@@ -1,0 +1,78 @@
+@import url(./maintenance-informatique-agadir-maroc.css);
+
+.packages-holder .left .pack{
+    font-size: 100px;
+    line-height: 50PX;
+    right: 0%;
+    transform: translateY(-80%) scale(0);
+    top: -0%;
+  }
+  .page1-section2 .page1-section2-row1{
+    background: transparent;
+  }
+  .page1-section2-row1 .page1-section2-holder .nb-cercle2{
+      width: 200px;
+      height:200px;
+      border-radius: 50%;
+      border:  solid 20px transparent;
+      background: linear-gradient(  #0f0e0d, #0f0e0d) padding-box, linear-gradient( to top left, #06ff79,#06ff79, #06ff7a84,#06ff7a4f,#00000000,#00000000,#00000000) border-box; 
+      border-image-slice: 1;
+      margin: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #06ff79;
+      font-size: 70px;
+      font-weight: 600;
+      position: relative;
+  }
+  .page1-section2-row1 .page1-section2-holder .nb-cercle2::after{
+      content: "+";
+      font-size: 70px;
+      font-weight: 600;
+      position: absolute;
+      color: #06ff79;
+      top: 50%;
+      left: -25px;
+      transform: translateY(-50%);
+  }
+  .page1-section2-row1 .page1-section2-holder {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+.section-nowotch{
+  background-image: url(../img/bg\ wifi.webp);
+  background-position: 80%;
+  
+}
+
+/*============================================responsive================================================*/
+@media screen and (max-width: 1200px){
+  
+  
+.page1-section2-row1 .page1-section2-holder {
+  margin: 0;
+}
+  
+}@media screen and (max-width: 640px){
+  
+  .page1-section2-row1 .page1-section2-holder .nb-cercle2{
+    width: 150px;
+    height:150px;
+    border:  solid 15px transparent;
+    font-size: 50px;
+    margin: 20px;
+}
+.page1-section2-row1 .page1-section2-holder .nb-cercle2::after{
+    content: "+";
+    font-size: 50px;
+}
+}
+
+
+/*==============================================*/
+
+

@@ -1,0 +1,185 @@
+@import url(./maintenance-informatique-agadir-maroc.css);
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #0f0e0d, #00000031);
+}
+
+.slideshow-container :nth-child(2) {
+  background-image: url(../img/pg2bgflip.jpeg);
+}
+#hero {
+  justify-content: right;
+}
+/*====================================================section3==========================================*/
+
+.page1-section3 {
+  width: 100%;
+  padding: 0 5%;
+}
+.page1-section3 h1 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  margin: 50px 0 20px;
+}
+.page1-section3 h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin: 20px 0 50px;
+}
+.page1-section3 .chaines {
+  width: 100%;
+}
+.page1-section3 .chaines h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 50px 0;
+}
+.page1-section3 .chaines .chaines-holder {
+  padding: 10px 4%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+  column-gap: 10px;
+  margin: 50px 0;
+  overflow: hidden;
+}
+.page1-section3 .chaines .chaines-holder div img {
+  max-width: 162px;
+  max-height: 86px;
+}
+.page1-section3 .chaines .chaines-holder div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #7bfc7c solid 1px;
+  padding: 10%;
+  height: 131px;
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 1.5s ease ;
+}
+.page1-section3 .chaines .chaines-holder div.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+/*=============================================================================================================*/
+.page1-section2 .page1-section2-row1{
+  background: transparent;
+}
+.page1-section2-row1 .page1-section2-holder .nb-cercle2{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border:  solid 20px transparent;
+    background: linear-gradient(  #0f0e0d, #0f0e0d) padding-box, linear-gradient( to top left, #06ff79,#06ff79, #06ff7a84,#06ff7a4f,#00000000,#00000000,#00000000) border-box; 
+    border-image-slice: 1;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #06ff79;
+    font-size: 70px;
+    font-weight: 600;
+    position: relative;
+}
+.page1-section2-row1 .page1-section2-holder .nb-cercle2::after{
+    content: "+";
+    font-size: 70px;
+    font-weight: 600;
+    position: absolute;
+    color: #06ff79;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+}
+.page1-section2-row1 .page1-section2-holder {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.page1-section2-row1 {
+  background-color: transparent;
+}
+
+.page1-section2 .page1-section2-row1{
+  background: transparent;
+}
+.page1-section2-row1 .page1-section2-holder .nb-cercle2{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border:  solid 20px transparent;
+    background: linear-gradient(  #0f0e0d, #0f0e0d) padding-box, linear-gradient( to top left, #06ff79,#06ff79, #06ff7a84,#06ff7a4f,#00000000,#00000000,#00000000) border-box; 
+    border-image-slice: 1;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #06ff79;
+    font-size: 70px;
+    font-weight: 600;
+    position: relative;
+}
+.page1-section2-row1 .page1-section2-holder .nb-cercle2::after{
+    content: "+";
+    font-size: 70px;
+    font-weight: 600;
+    position: absolute;
+    color: #06ff79;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+}
+.page1-section2-row1 {
+  background-color: transparent;
+}
+
+
+
+
+.section-nowotch{
+  background-image: url(../img/usb2.webp);
+  background-position: 90%;
+  
+}
+/*============================================responsive================================================*/
+@media screen and (max-width: 1200px){
+  
+  
+  .page1-section2-row1 .page1-section2-holder {
+    margin-left: 0;
+  }
+    
+  }@media screen and (max-width: 640px){
+    
+    .page1-section2-row1 .page1-section2-holder .nb-cercle2{
+      width: 150px;
+      height:150px;
+      border:  solid 15px transparent;
+      font-size: 50px;
+      margin: 20px;
+      
+  }
+  .page1-section2-row1 .page1-section2-holder .nb-cercle2::after{
+      content: "+";
+      font-size: 50px;
+  }
+  
+  #hero {
+    justify-content: left;
+  }
+  
+      }
